@@ -1,9 +1,20 @@
-const amount = 12;
-if (amount < 10)
-    console.log('small number');
-else{
+//OS MODULE
 
-    console.log('large number');
+const os = require('os');
+
+
+//info about current user
+
+const user = os.userInfo();
+console.log(user)
+//method returns the system uptime in seconds
+
+console.log(`The system uptime is ${os.uptime}`);
+
+const currentOS = {
+    name: os.type(),
+    release: os.release(),
+    totalMem: os.totalmem(),
+    freeMem: os.freemem(),
 }
-
-console.log(`Hey it;s my first node application`)
+console.log(currentOS);
