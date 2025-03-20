@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 /node_modules
+=======
+/node_modules
+.env
+/db
+>>>>>>> 916de71 (TaskManager using node and express js)

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "nodejs",
   "version": "1.0.0",
   "main": "-path-module.js",
@@ -28,3 +29,24 @@
 }
 
 
+=======
+  "name": "jobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
+>>>>>>> 916de71 (TaskManager using node and express js)
